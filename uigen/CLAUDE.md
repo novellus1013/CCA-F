@@ -52,3 +52,4 @@ Use comments sparingly. Only comment complex code.
 - `src/components/ui/` contains shadcn/ui primitives — prefer extending these over creating new primitives.
 - Prisma client is generated into `src/generated/prisma/` (not the default location).
 - Tests live in `__tests__/` subdirectories alongside their source and use `@testing-library/react` + `jsdom`.
+- Vitest config is in `vitest.config.mts`.
